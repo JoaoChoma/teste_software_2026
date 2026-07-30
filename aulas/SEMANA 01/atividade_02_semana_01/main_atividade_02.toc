@@ -1,0 +1,5 @@
+\babel@toc {brazilian}{}\relax 
+\beamer@sectionintoc {1}{Problema}{2}{0}{1}
+\beamer@sectionintoc {2}{Requisitos}{6}{0}{2}
+\beamer@sectionintoc {3}{Artefatos}{9}{0}{3}
+\beamer@sectionintoc {4}{Execução}{16}{0}{4}

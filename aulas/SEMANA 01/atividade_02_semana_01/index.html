@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LoginLab — microprojeto para teste</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">MICROPROJETO · BUILD 1.0.0</p>
+      <h1>LoginLab</h1>
+      <p class="lead">Um login pequeno o bastante para compreender cada classe de entrada.</p>
+
+      <div class="requirements">
+        <h2>Massa de teste conhecida</h2>
+        <dl>
+          <div><dt>aluno01</dt><dd>Teste@123 · ativo</dd></div>
+          <div><dt>professor01</dt><dd>Aula@2026 · ativo</dd></div>
+          <div><dt>bloqueado01</dt><dd>Segura@456 · bloqueado</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="workspace" aria-labelledby="titulo-form">
+      <h2 id="titulo-form">Autenticação</h2>
+      <form id="login-form" novalidate>
+        <label for="usuario">Usuário</label>
+        <input id="usuario" name="usuario" autocomplete="username">
+
+        <label for="senha">Senha</label>
+        <input id="senha" name="senha" type="password" autocomplete="current-password">
+
+        <div class="actions">
+          <button type="submit">Entrar</button>
+          <button type="button" class="secondary" id="limpar">Limpar sessão</button>
+        </div>
+      </form>
+
+      <section class="result" aria-live="polite">
+        <p class="eyebrow">RESULTADO OBSERVADO</p>
+        <p id="mensagem">Nenhuma tentativa executada.</p>
+        <p>Sessão criada: <strong id="sessao">não</strong></p>
+      </section>
+    </section>
+  </main>
+  <script src="logic.js"></script>
+  <script src="ui.js"></script>
+</body>
+</html>

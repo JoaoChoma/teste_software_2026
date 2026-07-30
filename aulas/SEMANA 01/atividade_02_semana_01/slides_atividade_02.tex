@@ -1,0 +1,298 @@
+\section{Problema}
+
+\begin{frame}{Duas saídas não significam apenas dois testes}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{.38\textwidth}
+      \begin{block}{Saída}
+        \centering
+        \textbf{true}\\
+        acesso concedido
+      \end{block}
+      \begin{block}{Saída}
+        \centering
+        \textbf{false}\\
+        acesso negado
+      \end{block}
+    \end{column}
+    \begin{column}{.56\textwidth}
+      Usuário e senha pertencem a classes diferentes:
+      \begin{itemize}
+        \item usuário ativo, bloqueado, inexistente ou vazio;
+        \item senha correspondente, incorreta, alterada ou vazia;
+        \item cada combinação pode exigir mensagem e estado diferentes.
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Objetivos da atividade}
+  Ao final, sua equipe deverá ser capaz de:
+  \begin{itemize}
+    \item transformar requisitos em classes de equivalência;
+    \item distinguir classe de entrada de resultado do teste;
+    \item combinar classes sem testar todas as possibilidades;
+    \item elaborar plano, matriz de partições e casos de teste;
+    \item executar os casos no LoginLab;
+    \item registrar observado, evidência, defeito e decisão.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Sistema sob teste: LoginLab 1.0.0}
+  Abra \texttt{index.html}. A massa conhecida contém:
+  \vspace{4mm}
+
+  \small
+  \begin{tabular}{p{36mm}p{37mm}p{27mm}}
+    \toprule
+    \textbf{Usuário} & \textbf{Senha} & \textbf{Estado}\\
+    \midrule
+    \texttt{aluno01} & \texttt{Teste@123} & ativo\\
+    \texttt{professor01} & \texttt{Aula@2026} & ativo\\
+    \texttt{bloqueado01} & \texttt{Segura@456} & bloqueado\\
+    \bottomrule
+  \end{tabular}
+  \vspace{6mm}
+
+  \begin{alertblock}{Importante}
+    Use somente as contas didáticas. O microprojeto é local e não utiliza dados reais.
+  \end{alertblock}
+\end{frame}
+
+\section{Requisitos}
+
+\begin{frame}{Regras de autenticação}
+  \small
+  \begin{tabular}{p{24mm}p{91mm}}
+    \toprule
+    \textbf{ID} & \textbf{Regra}\\
+    \midrule
+    RN-LOGIN-01 & Usuário e senha são obrigatórios.\\
+    RN-LOGIN-02 & Usuário ativo com senha correspondente deve autenticar.\\
+    RN-LOGIN-03 & Senha incorreta não deve autenticar.\\
+    RN-LOGIN-04 & Usuário inexistente não deve autenticar.\\
+    RN-LOGIN-05 & Usuário bloqueado não autentica, mesmo com senha correta.\\
+    \bottomrule
+  \end{tabular}
+\end{frame}
+
+\begin{frame}{Mensagem e sessão também fazem parte do resultado}
+  \small
+  \begin{tabular}{p{24mm}p{91mm}}
+    \toprule
+    \textbf{ID} & \textbf{Regra}\\
+    \midrule
+    RN-LOGIN-06 & Credencial inválida exibe
+      \texttt{Usuário ou senha inválidos}.\\
+    RN-LOGIN-07 & Conta bloqueada exibe
+      \texttt{Conta bloqueada. Procure o suporte}.\\
+    RN-LOGIN-08 & A senha diferencia maiúsculas e minúsculas.\\
+    RN-LOGIN-09 & Falha de autenticação não cria sessão.\\
+    \bottomrule
+  \end{tabular}
+  \vspace{5mm}
+
+  \begin{block}{Oráculo}
+    Não observe apenas true ou false: compare mensagem e estado da sessão.
+  \end{block}
+\end{frame}
+
+\section{Artefatos}
+
+\begin{frame}{Parte 1 — produzir os artefatos antes de testar}
+  \begin{enumerate}
+    \item elaborar o plano de teste;
+    \item identificar classes de equivalência;
+    \item selecionar combinações representativas;
+    \item escrever de 8 a 10 casos de teste.
+  \end{enumerate}
+  \vspace{5mm}
+
+  \begin{alertblock}{Disciplina de execução}
+    Resultado real e status permanecem vazios até o caso ser executado.
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}{Artefato 1 — plano de teste}
+  Use \texttt{modelos/plano\_de\_teste.md} para definir:
+  \begin{itemize}
+    \item objetivo e decisão apoiada;
+    \item escopo e fora de escopo;
+    \item riscos e prioridades;
+    \item estratégia e técnica;
+    \item ambiente e massa de dados;
+    \item critérios de entrada, saída, suspensão e retomada.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Artefato 2 — classes do campo usuário}
+  \small
+  \begin{tabular}{p{34mm}p{39mm}p{37mm}}
+    \toprule
+    \textbf{Classe} & \textbf{Representante} & \textbf{Tratamento}\\
+    \midrule
+    cadastrado e ativo & \texttt{aluno01} & pode autenticar\\
+    cadastrado e bloqueado & \texttt{bloqueado01} & negar\\
+    inexistente & \texttt{fantasma01} & negar\\
+    vazio & campo sem valor & validar obrigatoriedade\\
+    \bottomrule
+  \end{tabular}
+  \vspace{5mm}
+
+  \begin{block}{Pergunta}
+    Usuário cadastrado é sempre uma entrada válida para autenticação?
+  \end{block}
+\end{frame}
+
+\begin{frame}{Artefato 2 — classes do campo senha}
+  \small
+  \begin{tabular}{p{41mm}p{37mm}p{32mm}}
+    \toprule
+    \textbf{Classe} & \textbf{Representante} & \textbf{Tratamento}\\
+    \midrule
+    correspondente ao usuário & \texttt{Teste@123} & pode autenticar\\
+    incorreta com formato válido & \texttt{Errada@123} & negar\\
+    diferença de caixa & \texttt{teste@123} & negar\\
+    vazia & campo sem valor & validar obrigatoriedade\\
+    \bottomrule
+  \end{tabular}
+  \vspace{5mm}
+
+  \begin{alertblock}{Dependência}
+    ``Senha correta'' depende do usuário informado. A mesma senha pode ser correta
+    para uma conta e incorreta para outra.
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}{Artefato 3 — selecionar combinações}
+  \small
+  \begin{tabular}{p{38mm}p{39mm}p{24mm}}
+    \toprule
+    \textbf{Usuário} & \textbf{Senha} & \textbf{Resultado}\\
+    \midrule
+    ativo & correspondente & true\\
+    ativo & incorreta & false\\
+    inexistente & qualquer não vazia & false\\
+    bloqueado & correspondente & false\\
+    vazio & qualquer & false\\
+    \bottomrule
+  \end{tabular}
+  \vspace{4mm}
+
+  Selecione combinações que:
+  \begin{itemize}
+    \item cubram cada classe pelo menos uma vez;
+    \item isolem o motivo da rejeição;
+    \item priorizem segurança e evitem redundância.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Artefato 4 — especificar de 8 a 10 casos}
+  Cada caso deve conter:
+  \begin{itemize}
+    \item ID e título;
+    \item requisitos e riscos relacionados;
+    \item prioridade e pré-condições;
+    \item usuário e senha concretos;
+    \item passos necessários;
+    \item mensagem e estado de sessão esperados.
+  \end{itemize}
+  \begin{block}{Modelo}
+    Use \texttt{modelos/casos\_de\_teste.md}.
+  \end{block}
+\end{frame}
+
+\section{Execução}
+
+\begin{frame}{Parte 2 — executar o microprojeto}
+  Para cada caso:
+  \begin{enumerate}
+    \item selecione \textbf{Limpar sessão};
+    \item informe usuário e senha;
+    \item selecione \textbf{Entrar};
+    \item registre mensagem, estado da sessão e status;
+    \item capture evidência se houver divergência.
+  \end{enumerate}
+  \vspace{4mm}
+
+  Use \texttt{modelos/registro\_de\_execucao.md}.
+\end{frame}
+
+\begin{frame}{Parte 3 — interpretar os resultados}
+  \small
+  \begin{enumerate}
+    \item Quantas classes de usuário foram identificadas?
+    \item Quantas classes de senha foram identificadas?
+    \item Por que não bastam um caso true e um caso false?
+    \item Quais combinações diferentes produziram false?
+    \item A mensagem revela se um usuário está cadastrado?
+    \item Alguma divergência deve bloquear a liberação?
+  \end{enumerate}
+  \vspace{3mm}
+
+  Se houver falha, preencha \texttt{modelos/defeito.md}.
+\end{frame}
+
+\begin{frame}{Entregáveis}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{.48\textwidth}
+      \begin{enumerate}
+        \item plano de teste;
+        \item classes de equivalência;
+        \item matriz de combinações;
+        \item 8 a 10 casos.
+      \end{enumerate}
+    \end{column}
+    \begin{column}{.48\textwidth}
+      \begin{enumerate}
+        \setcounter{enumi}{4}
+        \item registro de execução;
+        \item evidências;
+        \item relatório de defeito;
+        \item decisão de liberação.
+      \end{enumerate}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Tempo sugerido}
+  \small
+  \begin{tabular}{p{35mm}p{72mm}}
+    \toprule
+    \textbf{Tempo} & \textbf{Atividade}\\
+    \midrule
+    20 minutos & requisitos, riscos e plano\\
+    20 minutos & partições e combinações\\
+    20 minutos & casos de teste\\
+    25 minutos & execução e evidências\\
+    15 minutos & revisão e decisão\\
+    \bottomrule
+  \end{tabular}
+\end{frame}
+
+\begin{frame}{Critérios de avaliação}
+  \small
+  \begin{tabular}{p{91mm}r}
+    \toprule
+    \textbf{Critério} & \textbf{Peso}\\
+    \midrule
+    Classes derivadas dos requisitos & 25\%\\
+    Seleção não redundante de combinações & 20\%\\
+    Clareza e reprodutibilidade dos casos & 20\%\\
+    Registro do observado e evidências & 20\%\\
+    Rastreabilidade e decisão final & 15\%\\
+    \bottomrule
+  \end{tabular}
+\end{frame}
+
+\begin{frame}{A pergunta que encerra a atividade}
+  \centering
+  \vfill
+  {\LARGE\color{azulinstitucional}\bfseries
+    Se o resultado é apenas true ou false,\\[3mm]
+    por que precisamos de vários casos?}
+  \vfill
+  \begin{block}{Ponto de partida}
+    Abra \texttt{index.html}. Preencha os artefatos antes de executar.
+  \end{block}
+\end{frame}
+
