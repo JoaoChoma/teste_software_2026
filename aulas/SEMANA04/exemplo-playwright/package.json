@@ -1,0 +1,20 @@
+{
+  "name": "exemplo-playwright-teste-funcional",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicação didática e testes funcionais com Playwright",
+  "scripts": {
+    "start": "node server.js",
+    "browsers": "PLAYWRIGHT_BROWSERS_PATH=.browsers playwright install chromium",
+    "browsers:all": "PLAYWRIGHT_BROWSERS_PATH=.browsers playwright install",
+    "test": "PLAYWRIGHT_BROWSERS_PATH=.browsers playwright test --project=chromium",
+    "test:all": "PLAYWRIGHT_BROWSERS_PATH=.browsers playwright test",
+    "test:headed": "PLAYWRIGHT_BROWSERS_PATH=.browsers playwright test --headed --project=chromium",
+    "test:ui": "PLAYWRIGHT_BROWSERS_PATH=.browsers playwright test --ui",
+    "test:debug": "PLAYWRIGHT_BROWSERS_PATH=.browsers playwright test --debug --project=chromium",
+    "report": "PLAYWRIGHT_BROWSERS_PATH=.browsers playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
