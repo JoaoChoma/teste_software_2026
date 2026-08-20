@@ -8,6 +8,8 @@ Projeto executável associado à apresentação `aula05_playwright.md`.
 - locators por rótulo, papel e `data-testid`;
 - asserções de URL, conteúdo e estado da sessão;
 - classes de equivalência e valores-limite para idade;
+- atividade de cálculo de frete, com spec-gabarito;
+- atividade de validação de senha, com spec-gabarito;
 - execução em Chromium, Firefox e WebKit;
 - servidor iniciado automaticamente pelo Playwright;
 - relatório HTML, screenshot em falha e trace na primeira repetição.
@@ -72,6 +74,19 @@ Acesse:
 
 - http://127.0.0.1:3000/login
 - http://127.0.0.1:3000/idade
+- http://127.0.0.1:3000/frete
+- http://127.0.0.1:3000/senha
+
+## Atividades propostas
+
+Antes de consultar o gabarito, escreva testes funcionais para as interfaces de
+frete e senha. Cubra os caminhos válidos, classes inválidas e os valores-limite
+descritos nas próprias páginas.
+
+Os gabaritos estão em:
+
+- `tests/frete.spec.ts`
+- `tests/senha.spec.ts`
 
 Credenciais didáticas:
 

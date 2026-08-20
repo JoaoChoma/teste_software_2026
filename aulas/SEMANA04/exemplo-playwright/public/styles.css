@@ -41,6 +41,7 @@ button, .button {
   text-decoration: none;
 }
 nav { display: flex; gap: 1rem; margin-top: 1.5rem; }
+.rules { padding-left: 1.25rem; color: #536b80; }
 [role="alert"] {
   margin-top: 1rem;
   padding: .8rem;
@@ -54,4 +55,3 @@ nav { display: flex; gap: 1rem; margin-top: 1.5rem; }
   background: #eefbf2;
 }
 .hint { color: #536b80; font-size: .92rem; }
-

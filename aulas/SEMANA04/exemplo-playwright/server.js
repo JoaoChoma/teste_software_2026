@@ -17,6 +17,8 @@ const server = http.createServer((request, response) => {
     '/login': 'login.html',
     '/conta': 'conta.html',
     '/idade': 'idade.html',
+    '/frete': 'frete.html',
+    '/senha': 'senha.html',
   };
 
   const requested = routes[url.pathname] || url.pathname.replace(/^\//, '');
