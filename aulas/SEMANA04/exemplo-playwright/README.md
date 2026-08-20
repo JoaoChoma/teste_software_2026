@@ -5,7 +5,6 @@ Projeto executável associado à apresentação `aula05_playwright.md`.
 ## O que ele demonstra
 
 - login válido e inválido;
-- locators por rótulo, papel e `data-testid`;
 - asserções de URL, conteúdo e estado da sessão;
 - classes de equivalência e valores-limite para idade;
 - atividade de cálculo de frete, com spec-gabarito;
@@ -14,17 +13,26 @@ Projeto executável associado à apresentação `aula05_playwright.md`.
 - servidor iniciado automaticamente pelo Playwright;
 - relatório HTML, screenshot em falha e trace na primeira repetição.
 
+
+## Executar o projeto manual
+
+```bash
+npm install
+npm run start
+```
+
+Acesse:
+
+- http://127.0.0.1:3000/login
+- http://127.0.0.1:3000/idade
+- http://127.0.0.1:3000/frete
+- http://127.0.0.1:3000/senha
+
 ## Instalação
 
 ```bash
 npm install
 npm run browsers
-```
-
-Em Linux ou ambiente de integração contínua:
-
-```bash
-PLAYWRIGHT_BROWSERS_PATH=.browsers npx playwright install --with-deps chromium
 ```
 
 ## Executar
@@ -57,40 +65,40 @@ Abrir o último relatório:
 npm run report
 ```
 
-Para instalar todos os navegadores e executar os três projetos:
+Para instalar todos os navegadores e executar os projetos:
 
 ```bash
 npm run browsers:all
 npm run test:all
 ```
 
-## Aplicação manual
 
-```bash
-npm run start
-```
 
-Acesse:
+## Prática propostas
 
-- http://127.0.0.1:3000/login
-- http://127.0.0.1:3000/idade
-- http://127.0.0.1:3000/frete
-- http://127.0.0.1:3000/senha
+1. Clonar o repositório e acessar a pasta do projeto `aulas/SEMANA04/exemplo-playwright`
 
-## Atividades propostas
+2. Consultar o gabarito e analisar como o teste é executado;
 
-Antes de consultar o gabarito, escreva testes funcionais para as interfaces de
-frete e senha. Cubra os caminhos válidos, classes inválidas e os valores-limite
-descritos nas próprias páginas.
+Os exemplos estão em:
 
-Os gabaritos estão em:
-
-- `tests/frete.spec.ts`
-- `tests/senha.spec.ts`
+- `tests/idade.spec.ts`
+- `tests/login.spec.ts`
 
 Credenciais didáticas:
 
 - e-mail: `ana@exemplo.com`
 - senha: `SenhaSegura123!`
 
-> Não reutilize credenciais fixas dessa forma em um sistema real.
+> ISSO É UM EXEMPLO: Não reutilize credenciais fixas dessa forma em um sistema real.
+
+# O que vocês devem fazer para entregar:
+
+2. Escreva testes funcionais para as interfaces de frete e senha;
+
+3. Cubra os caminhos válidos, classes inválidas e os valores-limite
+descritos nas próprias páginas;
+
+```bash
+publique o projeto resultante em seu Github; 
+```
