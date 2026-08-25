@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro de senha</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main>
+    <h1>Criar senha</h1>
+    <p>A senha deve ter de 8 a 20 caracteres, ao menos uma letra maiúscula, uma minúscula e um número. Espaços não são permitidos.</p>
+    <form id="senha-form" novalidate>
+      <label for="senha">Nova senha</label>
+      <input id="senha" name="senha" type="password" autocomplete="new-password">
+      <label for="confirmacao">Confirmar senha</label>
+      <input id="confirmacao" name="confirmacao" type="password" autocomplete="new-password">
+      <button type="submit">Cadastrar senha</button>
+      <p id="resultado" hidden></p>
+    </form>
+    <nav><a href="/login">Voltar ao início</a></nav>
+  </main>
+  <script src="/senha.js"></script>
+</body>
+</html>

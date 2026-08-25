@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora de frete</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main>
+    <h1>Calcular frete</h1>
+    <p>Informe um CEP com 8 dígitos e o valor do pedido.</p>
+    <ul class="rules">
+      <li>CEP iniciado por 8: frete de R$ 15,00.</li>
+      <li>Demais CEPs: frete de R$ 25,00.</li>
+      <li>Pedidos a partir de R$ 200,00 têm frete grátis.</li>
+    </ul>
+    <form id="frete-form" novalidate>
+      <label for="cep">CEP</label>
+      <input id="cep" name="cep" inputmode="numeric" placeholder="00000000">
+      <label for="valor">Valor do pedido</label>
+      <input id="valor" name="valor" inputmode="decimal" placeholder="0,00">
+      <button type="submit">Calcular frete</button>
+      <p id="resultado" hidden></p>
+    </form>
+    <nav><a href="/login">Voltar ao início</a></nav>
+  </main>
+  <script src="/frete.js"></script>
+</body>
+</html>
