@@ -1,0 +1,360 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - region "Banner principal" [ref=e5]:
+        - generic [ref=e6]:
+          - heading "Transmoviterra - A terraplenagem de Maringá" [level=1] [ref=e7]
+          - paragraph [ref=e8]: Construindo Maringá desde 1984. Locação de escavadeiras, retroescavadeiras, caminhão pipa e caçambas.
+      - navigation "Navegação principal" [ref=e9]:
+        - generic [ref=e11]:
+          - link "Ir para página inicial" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img "Logo Transmoviterra - Terraplenagem Maringá" [ref=e13]
+            - generic [ref=e14]: Transmoviterra
+          - menubar [ref=e15]:
+            - menuitem "Nossa Empresa" [ref=e16] [cursor=pointer]
+            - menuitem "Coleta de resíduos" [ref=e17] [cursor=pointer]
+            - menuitem "Serviços" [ref=e18] [cursor=pointer]
+            - menuitem "Equipamentos" [ref=e19] [cursor=pointer]
+            - menuitem "Contato" [ref=e20] [cursor=pointer]
+            - menuitem "Disk Entulho Maringá" [ref=e21] [cursor=pointer]
+            - menuitem "Caminhão Pipa Maringá" [ref=e22] [cursor=pointer]
+    - main [ref=e23]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - heading "Gestão de resíduos em Maringá" [level=2] [ref=e27]
+          - paragraph [ref=e28]: "A Transmoviterra é licenciada pelo IAT (Instituto Água e Terra) e pioneira no tratamento de resíduos da construção civil na região. Atuamos em 4 das 6 etapas da logística reversa: coleta, triagem, transbordo e destinação final."
+        - generic [ref=e29]:
+          - 'button "Ligue: 44 99718-4526" [ref=e30] [cursor=pointer]'
+          - button "Quero um orçamento" [ref=e31] [cursor=pointer]
+      - generic [ref=e33]:
+        - heading "Opções de coleta" [level=2] [ref=e34]
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - img "Mini caçamba Transmoviterra de 1m³"
+            - heading "Mini Caçamba" [level=3] [ref=e39]
+            - generic [ref=e40]:
+              - heading "1m³" [level=3] [ref=e41]
+              - paragraph [ref=e42]: Pequena solução, grandes resultados. Perfeita para espaços reduzidos e pequenos volumes.
+              - button "Solicitar" [ref=e43] [cursor=pointer]
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - img "Caçamba Transmoviterra de 3m³"
+            - heading "Caçamba Pequena" [level=3] [ref=e47]
+            - generic [ref=e48]:
+              - heading "3m³" [level=3] [ref=e49]
+              - paragraph [ref=e50]: Perfeita para reformas leves, entulho de banheiro ou pequenas obras.
+              - button "Solicitar" [ref=e51] [cursor=pointer]
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - img "Caçamba Transmoviterra de 4m³"
+            - heading "Caçamba Média" [level=3] [ref=e55]
+            - generic [ref=e56]:
+              - heading "4m³" [level=3] [ref=e57]
+              - paragraph [ref=e58]: Equilíbrio entre capacidade e praticidade para obras residenciais.
+              - button "Solicitar" [ref=e59] [cursor=pointer]
+          - generic [ref=e60]:
+            - generic [ref=e61]: MAIS POPULAR
+            - generic [ref=e62]:
+              - img "Caçamba Transmoviterra de 5m³"
+            - heading "Caçamba Grande" [level=3] [ref=e64]
+            - generic [ref=e65]:
+              - heading "5m³" [level=3] [ref=e66]
+              - paragraph [ref=e67]: Para obras de médio e grande porte com maior volume de entulho.
+              - button "Solicitar" [ref=e68] [cursor=pointer]
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - img "Caçamba Transmoviterra de 10m³"
+            - heading "Caçamba Extra Grande" [level=3] [ref=e72]
+            - generic [ref=e73]:
+              - heading "10m³" [level=3] [ref=e74]
+              - paragraph [ref=e75]: Soluções para grandes obras e resíduos volumosos.
+              - button "Solicitar" [ref=e76] [cursor=pointer]
+      - generic [ref=e78]:
+        - heading "Serviços de Terraplenagem" [level=2] [ref=e79]
+        - paragraph [ref=e80]: A TRANSMOVITERRA tem como missão ser referência em serviços de terraplenagem na região, investindo continuamente em equipamentos próprios e modernos, garantindo agilidade, qualidade e segurança em cada obra. Com equipe qualificada e foco total na satisfação do cliente, somos a única empresa da região com licença ambiental para a execução de obras de terraplenagem.
+      - generic [ref=e82]:
+        - heading "Nossos Pacotes" [level=2] [ref=e83]
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - heading "Pequenas Obras" [level=3] [ref=e87]
+            - generic [ref=e88]:
+              - heading "Locações por hora" [level=3] [ref=e89]
+              - paragraph [ref=e90]: Flexibilidade Total
+              - list [ref=e91]:
+                - listitem [ref=e92]: Ideal para serviços rápidos
+                - listitem [ref=e96]: Ótimo custo-benefício
+                - listitem [ref=e100]: Atendimento ágil
+              - button "Solicitar" [ref=e104] [cursor=pointer]
+          - generic [ref=e105]:
+            - generic [ref=e106]: MAIS POPULAR
+            - heading "Obras Convencionais" [level=3] [ref=e108]
+            - generic [ref=e109]:
+              - heading "Locações diárias" [level=3] [ref=e110]
+              - paragraph [ref=e111]: Controle total
+              - list [ref=e112]:
+                - listitem [ref=e113]: Perfeito para a maioria das obras
+                - listitem [ref=e117]: Planejamento otimizado
+                - listitem [ref=e121]: Equipamentos à disposição
+              - button "Solicitar" [ref=e125] [cursor=pointer]
+          - generic [ref=e126]:
+            - heading "Obras de Longo Prazo" [level=3] [ref=e128]
+            - generic [ref=e129]:
+              - heading "Locações mensais" [level=3] [ref=e130]
+              - paragraph [ref=e131]: Parceria Completa
+              - list [ref=e132]:
+                - listitem [ref=e133]: Condições especiais
+                - listitem [ref=e137]: Atendimento prioritário
+                - listitem [ref=e141]: Suporte dedicado
+              - button "Solicitar" [ref=e145] [cursor=pointer]
+      - generic [ref=e146]:
+        - heading "Equipamentos para Locação" [level=3] [ref=e147]
+        - generic [ref=e148]:
+          - paragraph [ref=e149]: Locação de carregadeiras • Locação de Retroescavadeira • Locação de Escavadeira Hidráulica
+          - paragraph [ref=e150]: Locação de Rolo Compactador Liso • Locação de Rolo Compactador Corrugado
+          - paragraph [ref=e151]: Locação de Caminhões Caçamba • Locação de Caminhões Prancha
+          - paragraph [ref=e152]: Locação de Caminhões Pipa • Locação de Caminhões Poliguindaste • Locação de Caçambas de Entulho
+          - paragraph [ref=e153]: Locação de Mini Pá Carregadeira (Bob Cat) • Locação de Mini Pá Carregadeira com Vassoura
+      - region "Catálogo de equipamentos para locação" [ref=e154]:
+        - generic [ref=e155]:
+          - heading "Catálogo de Equipamentos para Locação em Maringá" [level=2] [ref=e156]
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - generic [ref=e159]: Mais Alugado
+              - img "Locação de Escavadeira Hidráulica em Maringá - Transmoviterra" [ref=e161]
+              - generic [ref=e162]:
+                - heading "Escavadeira Hidráulica" [level=3] [ref=e163]
+                - paragraph [ref=e164]: Ideal para escavações profundas e movimentação de grandes volumes de terra.
+                - button "Solicitar orçamento" [ref=e165] [cursor=pointer]
+            - listitem [ref=e166]:
+              - generic [ref=e167]: Mais Alugado
+              - img "Locação de Caminhão Pipa em Maringá - Transmoviterra" [ref=e169]
+              - generic [ref=e170]:
+                - heading "Caminhão Pipa" [level=3] [ref=e171]
+                - paragraph [ref=e172]: Transporte e distribuição de água para obras e controle de poeira.
+                - button "Solicitar orçamento" [ref=e173] [cursor=pointer]
+            - listitem [ref=e174]:
+              - generic [ref=e175]: Mais Alugado
+              - img "Locação de Mini Pá Carregadeira em Maringá - Transmoviterra" [ref=e177]
+              - generic [ref=e178]:
+                - heading "Mini Pá Carregadeira" [level=3] [ref=e179]
+                - paragraph [ref=e180]: Versátil para serviços de carregamento e limpeza em espaços reduzidos.
+                - button "Solicitar orçamento" [ref=e181] [cursor=pointer]
+            - listitem [ref=e182]:
+              - img "Locação de Mini Carregadeira com Vassoura em Maringá - Transmoviterra" [ref=e184]
+              - generic [ref=e185]:
+                - heading "Mini Carregadeira com Vassoura" [level=3] [ref=e186]
+                - paragraph [ref=e187]: Perfeita para varrição e limpeza de obras, canteiros e pátios com agilidade.
+                - button "Solicitar orçamento" [ref=e188] [cursor=pointer]
+            - listitem [ref=e189]:
+              - img "Locação de Rolo Compactador em Maringá - Transmoviterra" [ref=e191]
+              - generic [ref=e192]:
+                - heading "Rolo Compactador" [level=3] [ref=e193]
+                - paragraph [ref=e194]: Compactação eficiente de solos para fundações, estradas e terraplenagem.
+                - button "Solicitar orçamento" [ref=e195] [cursor=pointer]
+            - listitem [ref=e196]:
+              - img "Locação de Retro Escavadeira em Maringá - Transmoviterra" [ref=e198]
+              - generic [ref=e199]:
+                - heading "Retro Escavadeira" [level=3] [ref=e200]
+                - paragraph [ref=e201]: Equipamento versátil para escavações, carregamento e serviços diversos.
+                - button "Solicitar orçamento" [ref=e202] [cursor=pointer]
+            - listitem [ref=e203]:
+              - img "Locação de Caçambas de Entulho em Maringá - Transmoviterra" [ref=e205]
+              - generic [ref=e206]:
+                - heading "Caçambas de Entulho" [level=3] [ref=e207]
+                - paragraph [ref=e208]: Solução prática para coleta e descarte de resíduos em obras e reformas.
+                - button "Solicitar orçamento" [ref=e209] [cursor=pointer]
+            - listitem [ref=e210]:
+              - img "Locação de Caminhão Poliguindaste em Maringá - Transmoviterra" [ref=e212]
+              - generic [ref=e213]:
+                - heading "Caminhão Poliguindaste" [level=3] [ref=e214]
+                - paragraph [ref=e215]: Ideal para transporte e movimentação de caçambas de entulho com agilidade.
+                - button "Solicitar orçamento" [ref=e216] [cursor=pointer]
+            - listitem [ref=e217]:
+              - img "Locação de Caminhão Caçamba em Maringá - Transmoviterra" [ref=e219]
+              - generic [ref=e220]:
+                - heading "Caminhão Caçamba" [level=3] [ref=e221]
+                - paragraph [ref=e222]: Transporte de materiais, entulhos e terra com eficiência e segurança.
+                - button "Solicitar orçamento" [ref=e223] [cursor=pointer]
+            - listitem [ref=e224]:
+              - img "Locação de Caminhão Prancha em Maringá - Transmoviterra" [ref=e226]
+              - generic [ref=e227]:
+                - heading "Caminhão Prancha" [level=3] [ref=e228]
+                - paragraph [ref=e229]: Transporte de equipamentos pesados com segurança e eficiência.
+                - button "Solicitar orçamento" [ref=e230] [cursor=pointer]
+            - listitem [ref=e231]:
+              - img "Locação de Mini Escavadeira em Maringá - Transmoviterra" [ref=e233]
+              - generic [ref=e234]:
+                - heading "Mini Escavadeira" [level=3] [ref=e235]
+                - paragraph [ref=e236]: Perfeita para trabalhos em espaços confinados e escavações de precisão.
+                - button "Solicitar orçamento" [ref=e237] [cursor=pointer]
+            - listitem [ref=e238]:
+              - img "Locação de Rolo Compactador Corrugado em Maringá - Transmoviterra" [ref=e240]
+              - generic [ref=e241]:
+                - heading "Rolo Compactador Corrugado" [level=3] [ref=e242]
+                - paragraph [ref=e243]: Ideal para compactação de solos argilosos e aterros.
+                - button "Solicitar orçamento" [ref=e244] [cursor=pointer]
+      - generic [ref=e246]:
+        - heading "Princípios da Coleta de Resíduos" [level=2] [ref=e247]
+        - paragraph [ref=e248]: "A Transmoviterra é licenciada pelo IAT (Instituto Água e Terra) e pioneira no tratamento de resíduos da construção civil na região. Atuamos em 4 das 6 etapas da logística reversa: coleta, triagem, transbordo e destinação final."
+        - generic [ref=e249]:
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - img "Coleta"
+            - heading "Coleta" [level=5] [ref=e253]
+            - paragraph [ref=e254]: Remoção segura com frota licenciada para atendimento urbano e rural.
+          - generic [ref=e256]:
+            - generic [ref=e257]:
+              - img "Triagem"
+            - heading "Triagem" [level=5] [ref=e258]
+            - paragraph [ref=e259]: Separação técnica para reaproveitamento de resíduos recicláveis.
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - img "Transbordo"
+            - heading "Transbordo" [level=5] [ref=e263]
+            - paragraph [ref=e264]: Transferência segura dos resíduos para centros de destinação.
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - img "Destinação Final"
+            - heading "Destinação Final" [level=5] [ref=e268]
+            - paragraph [ref=e269]: Encaminhamento a locais licenciados conforme legislação ambiental vigente.
+        - generic [ref=e270]:
+          - heading "Importância da Logística Reversa" [level=4] [ref=e271]
+          - paragraph [ref=e272]: Promover a destinação correta dos resíduos reduz o impacto ambiental, evita sanções legais e fortalece a imagem das empresas contratantes. Atuamos como elo essencial entre as obras e o meio ambiente, garantindo rastreabilidade e conformidade legal.
+      - generic [ref=e274]:
+        - heading "Opções de coleta" [level=2] [ref=e275]
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - img "Mini caçamba Transmoviterra de 1m³"
+            - heading "Mini Caçamba" [level=3] [ref=e280]
+            - generic [ref=e281]:
+              - heading "1m³" [level=3] [ref=e282]
+              - paragraph [ref=e283]: Pequena solução, grandes resultados. Perfeita para espaços reduzidos e pequenos volumes.
+              - button "Solicitar" [ref=e284] [cursor=pointer]
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - img "Caçamba Transmoviterra de 3m³"
+            - heading "Caçamba Pequena" [level=3] [ref=e288]
+            - generic [ref=e289]:
+              - heading "3m³" [level=3] [ref=e290]
+              - paragraph [ref=e291]: Perfeita para reformas leves, entulho de banheiro ou pequenas obras.
+              - button "Solicitar" [ref=e292] [cursor=pointer]
+          - generic [ref=e293]:
+            - generic [ref=e294]:
+              - img "Caçamba Transmoviterra de 4m³"
+            - heading "Caçamba Média" [level=3] [ref=e296]
+            - generic [ref=e297]:
+              - heading "4m³" [level=3] [ref=e298]
+              - paragraph [ref=e299]: Equilíbrio entre capacidade e praticidade para obras residenciais.
+              - button "Solicitar" [ref=e300] [cursor=pointer]
+          - generic [ref=e301]:
+            - generic [ref=e302]: MAIS POPULAR
+            - generic [ref=e303]:
+              - img "Caçamba Transmoviterra de 5m³"
+            - heading "Caçamba Grande" [level=3] [ref=e305]
+            - generic [ref=e306]:
+              - heading "5m³" [level=3] [ref=e307]
+              - paragraph [ref=e308]: Para obras de médio e grande porte com maior volume de entulho.
+              - button "Solicitar" [ref=e309] [cursor=pointer]
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - img "Caçamba Transmoviterra de 10m³"
+            - heading "Caçamba Extra Grande" [level=3] [ref=e313]
+            - generic [ref=e314]:
+              - heading "10m³" [level=3] [ref=e315]
+              - paragraph [ref=e316]: Soluções para grandes obras e resíduos volumosos.
+              - button "Solicitar" [ref=e317] [cursor=pointer]
+      - generic [ref=e319]:
+        - heading "Conheça nosso trabalho" [level=2] [ref=e320]
+        - iframe [ref=e323]
+      - region "Nossa empresa" [ref=e324]:
+        - article [ref=e326]:
+          - heading "Nossa Empresa - Transmoviterra" [level=2] [ref=e327]
+          - paragraph [ref=e328]: A TRANSMOVITERRA é uma empresa de terraplenagem e locação de equipamentos, com mais de 45 anos de experiência no mercado. Atuamos em Maringá e região, oferecendo serviços de alta qualidade e confiabilidade.
+          - paragraph [ref=e329]:
+            - text: A TRANSMOVITERRA possui uma história de determinação, trabalho, e sucesso, que se iniciou quando o Sr. JOÃO CHOMA fundou em
+            - time [ref=e330]: 12 de julho de 1984
+            - text: ", na cidade de Maringá estado do Paraná a empresa Transmoviterra Transportes e Serviços LTDA. Desde então a TRANSMOVITERRA vem se destacando pela sua excelência e dinamismo nos serviços prestados, transmitindo segurança, tranquilidade e agilidade a seus clientes."
+          - figure "Galeria de imagens da empresa" [ref=e331]:
+            - generic [ref=e332]:
+              - generic [ref=e333]:
+                - img "Terraplenagem Eficiente - Modernos equipamentos para sua obra." [ref=e334]
+                - generic [ref=e336]:
+                  - heading "Terraplenagem Eficiente" [level=3] [ref=e337]
+                  - paragraph [ref=e338]: Modernos equipamentos para sua obra.
+              - generic:
+                - generic:
+                  - heading [level=3]: Locação de Máquinas
+                  - paragraph: Alugue caçambas, retroescavadeiras, caminhões e mais.
+              - generic:
+                - generic:
+                  - heading [level=3]: Limpeza de Terrenos
+                  - paragraph: Serviço rápido e confiável desde 1984.
+            - button "Ver imagem anterior" [ref=e339] [cursor=pointer]
+            - button "Ver próxima imagem" [ref=e342] [cursor=pointer]
+            - tablist "Indicadores do carrossel" [ref=e345]:
+              - tab "Ver slide 1 de 3" [selected] [ref=e346] [cursor=pointer]
+              - tab "Ver slide 2 de 3" [ref=e347] [cursor=pointer]
+              - tab "Ver slide 3 de 3" [ref=e348] [cursor=pointer]
+      - region "Serviços disponíveis" [ref=e349]:
+        - heading "Serviços de Terraplenagem em Maringá" [level=2] [ref=e350]
+        - paragraph [ref=e351]: Conheça os serviços realizados pela Transmoviterra há mais de 40 anos.
+        - generic [ref=e352]:
+          - article [ref=e353]:
+            - heading "Serviços de Limpeza" [level=3] [ref=e354]
+            - paragraph [ref=e355]: Limpeza de Terrenos • Demolição • Varrição de obras • Lavagem de ruas.
+          - article [ref=e356]:
+            - heading "Serviços de Escavação" [level=3] [ref=e357]
+            - paragraph [ref=e358]: Entrega de terra • Aterro • Terraplenagem • Escavação.
+            - paragraph [ref=e359]: Escavação de valetas • Escavação de galerias • Escavação de piscinas • Execução de curva de nível • Escavação de represas.
+          - article [ref=e360]:
+            - heading "Serviços de Compactação" [level=3] [ref=e361]
+            - paragraph [ref=e362]: Compactação • Cascalhamento de Estradas • Cascalhamento de Estacionamentos • Execução de Carreadores.
+        - generic [ref=e363]:
+          - generic [ref=e365]:
+            - heading "Cascalhamento" [level=3] [ref=e366]
+            - paragraph [ref=e367]: Realizamos o cascalhamento de estradas e estacionamentos com entulho reciclado.
+          - generic [ref=e369]:
+            - heading "Escavação" [level=3] [ref=e370]
+            - paragraph [ref=e371]: Realizamos o serviço de corte e escavações de terrenos.
+          - generic [ref=e373]:
+            - heading "Transporte" [level=3] [ref=e374]
+            - paragraph [ref=e375]: Realizamos o transporte da Mini Pá Carregadeira com caminhão próprio.
+          - generic [ref=e377]:
+            - heading "Vassoura Recolhedora" [level=3] [ref=e378]
+            - paragraph [ref=e379]: Equipamento Vassoura Recolhedora para varrição de obras.
+    - contentinfo [ref=e380]:
+      - generic [ref=e382]:
+        - generic [ref=e383]:
+          - heading "Transmoviterra" [level=5] [ref=e384]
+          - paragraph [ref=e385]: Potência e confiança para o seu negócio. Encontre as melhores soluções para sua obra.
+        - generic [ref=e386]:
+          - heading "Links" [level=5] [ref=e387]
+          - list [ref=e388]:
+            - listitem [ref=e389]:
+              - button "Equipamentos" [ref=e390] [cursor=pointer]
+            - listitem [ref=e391]:
+              - button "Resíduos" [ref=e392] [cursor=pointer]
+            - listitem [ref=e393]:
+              - button "A Empresa" [ref=e394] [cursor=pointer]
+            - listitem [ref=e395]:
+              - link "Disk Entulho Maringá" [ref=e396] [cursor=pointer]:
+                - /url: /diskentulhomaringa
+            - listitem [ref=e397]:
+              - link "Caminhão Pipa Maringá" [ref=e398] [cursor=pointer]:
+                - /url: /caminhaopipamaringa
+        - generic [ref=e399]:
+          - heading "Contato" [level=5] [ref=e400]
+          - generic [ref=e401]:
+            - paragraph [ref=e402]: Avenida Prefeito Sincler Sambatti, 8481 - Maringá-PR
+            - paragraph [ref=e406]: comercial@transmoviterra.com.br
+            - link "+55 (44) 99718-4526" [ref=e410] [cursor=pointer]:
+              - /url: tel:+5544997184526
+            - link "+55 (44) 99722-1318" [ref=e413] [cursor=pointer]:
+              - /url: https://wa.me/5544997221318?text=Achei%20vcs%20no%20Google%2C%20quero%20um%20or%C3%A7amento.
+    - button "Contato WhatsApp" [ref=e416] [cursor=pointer]
