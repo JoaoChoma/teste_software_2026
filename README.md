@@ -40,8 +40,6 @@ Repositório oficial para organização e acompanhamento da disciplina **PROJETO
 
 ### Encaminhar link do Github com os commits realizados no seguinte forms
 
-
-
 PROJETO, IMPLEMENTAÇÃO E TESTE DE SOFTWARE:
 ````
 Entrega(link){
