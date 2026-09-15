@@ -36,7 +36,7 @@ Repositório oficial para organização e acompanhamento da disciplina **PROJETO
     - [[https://github.com/JoaoChoma/teste_software_2026/tree/main/aulas/SEMANA06]]
 
 4. Exercícios na sala sobre GFC - Revisão
-
+    - [[https://github.com/JoaoChoma/teste_software_2026/blob/main/aulas/SEMANA07_REVISAO/exercicios_grafos_fluxo_controle.md]]
 
 ### Encaminhar link do Github com os commits realizados no seguinte forms
 
