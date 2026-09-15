@@ -24,7 +24,7 @@ Repositório oficial para organização e acompanhamento da disciplina **PROJETO
 
 ---
 
-## ATIVIDADES AVALIÇÃO PRÁTICA PROVA 01
+## ATIVIDADES AVALIAÇÃO PRÁTICA PROVA 01
 
 1. Artefatos planos de teste e casos de teste
     - [[https://github.com/JoaoChoma/teste_software_2026/blob/main/atividades/atividade01.md]]
