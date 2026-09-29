@@ -24,18 +24,18 @@ Repositório oficial para organização e acompanhamento da disciplina **PROJETO
 
 ---
 
-## ATIVIDADES AVALIAÇÃO PRÁTICA PROVA 01
+## ATIVIDADES AVALIAÇÃO PRÁTICA PROVA 01 (TOTAL 3,0 PONTOS)
 
-1. Artefatos planos de teste e casos de teste
+1. Artefatos planos de teste e casos de teste (0,75 PONTO)
     - [[https://github.com/JoaoChoma/teste_software_2026/blob/main/atividades/atividade01.md]]
 
-2. Teste funcional - Playwright
+2. Teste funcional - Playwright (0,75 PONTO)
     - [[https://github.com/JoaoChoma/teste_software_2026/tree/main/aulas/SEMANA04]]
 
-3. Teste estrutural - Teste unitário - JUnit
+3. Teste estrutural - Teste unitário - JUnit (0,75 PONTO)
     - [[https://github.com/JoaoChoma/teste_software_2026/tree/main/aulas/SEMANA06]]
 
-4. Exercícios na sala sobre GFC - Revisão
+4. Exercícios na sala sobre GFC - Revisão (0,75 PONTO)
     - [[https://github.com/JoaoChoma/teste_software_2026/blob/main/aulas/SEMANA07_REVISAO/exercicios_grafos_fluxo_controle.md]]
 
 ### Encaminhar link do Github com os commits realizados no seguinte forms
