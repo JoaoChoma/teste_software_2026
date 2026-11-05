@@ -1,6 +1,16 @@
+# Desafios
+
+1. Pode ser dupla;
+2. Contribuição da dupla no repositório, caso não seja rastreado ambas contribuições, será considerado somente quem contribuiu;
+3. Identificar o funcionamento dos casos de teste no readme;
+4. Identificar o(s) colaborador(es) no readme;
+5. Você não é obrigado a fazer os desafios;
+
+---
+
 # Um repositório por desafio 
 
-O desafio não será aceito caso não esteja no padrão de entrega;
+## O desafio não será aceito caso esteja em discordância ao padrão de entrega;
 
 Padrão de nomenclatura dos repositórios:
   - desafio_teste_truco;
