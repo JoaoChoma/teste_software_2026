@@ -5,6 +5,7 @@
 3. Identificar o funcionamento dos casos de teste no readme;
 4. Identificar o(s) colaborador(es) no readme;
 5. Você não é obrigado a fazer os desafios;
+6. Só serão considerados até 05 desafios entregues;
 
 ---
 
@@ -50,6 +51,12 @@ Padrão de nomenclatura dos repositórios:
 
 - casos de teste para testar uma partida para 02 jogadores;
 - casos de teste em Javascript para testar Javascript;
+
+# Ludo (by Vini)
+
+- casos de teste para testar uma partida para 02 jogadores;
+- casos de teste em Javascript para testar Javascript;
+
 
 
 ---
