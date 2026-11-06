@@ -2,10 +2,11 @@
 
 1. Pode ser dupla;
 2. Contribuição da dupla no repositório, caso não seja rastreado ambas contribuições, será considerado somente quem contribuiu;
-3. Identificar o funcionamento dos casos de teste no readme;
-4. Identificar o(s) colaborador(es) no readme;
-5. Você não é obrigado a fazer os desafios;
-6. Só serão considerados até 05 desafios entregues;
+3. Identificar a especificação do desafio no readme;
+4. Identificar o funcionamento dos casos de teste no readme;
+5. Identificar o(s) colaborador(es) no readme;
+6. Você não é obrigado a fazer os desafios;
+7. Só serão considerados até 05 desafios entregues;
 
 ---
 
@@ -14,12 +15,12 @@
 ## O desafio não será aceito caso esteja em discordância ao padrão de entrega;
 
 Padrão de nomenclatura dos repositórios:
-  - desafio_teste_truco;
-  - desafio_teste_campo_minado;
-  - desafio_teste_sudoku;
-  - desafio_teste_batalha_naval;
-  - desafio_teste_domino;
-  - desafio_teste_ludo;
+  - desafio_teste_truco
+  - desafio_teste_campo_minado
+  - desafio_teste_sudoku
+  - desafio_teste_batalha_naval
+  - desafio_teste_domino
+  - desafio_teste_ludo
 
 ---
 
