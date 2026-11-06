@@ -48,7 +48,7 @@ Padrão de nomenclatura dos repositórios:
 
 # Dominó
 
-- casos de teste para testar um rodada de jogo para 02 jogadores;
+- casos de teste para testar uma partida para 02 jogadores;
 - casos de teste em Javascript para testar Javascript;
 
 
