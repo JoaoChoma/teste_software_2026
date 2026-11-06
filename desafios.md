@@ -19,6 +19,7 @@ Padrão de nomenclatura dos repositórios:
   - desafio_teste_sudoku;
   - desafio_teste_batalha_naval;
   - desafio_teste_domino;
+  - desafio_teste_ludo;
 
 ---
 
