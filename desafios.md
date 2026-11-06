@@ -1,4 +1,4 @@
-# Desafios (entrega até dia 22/11/2026 às 23:99
+# Desafios (entrega até dia 22/11/2026 às 23:99)
 
 1. Pode ser dupla;
 2. Contribuição da dupla no repositório, caso não seja rastreado ambas contribuições, será considerado somente quem contribuiu;
