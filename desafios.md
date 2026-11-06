@@ -21,7 +21,7 @@ Padrão de nomenclatura dos repositórios:
 
 ---
 
-# Truco (by turma A)
+# Truco (by Breno)
 
 - casos de teste para testar o truco paulista;
 - truco de 02 duplas;
