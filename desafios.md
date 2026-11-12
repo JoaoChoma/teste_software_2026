@@ -12,6 +12,8 @@
 
 # Um repositório por desafio 
 
+LINK DE ENTREGA: https://forms.gle/bgbV2TwrreR8LiAGA
+
 ## O desafio não será aceito caso esteja em discordância ao padrão de entrega;
 
 Padrão de nomenclatura dos repositórios:
