@@ -28,7 +28,7 @@ Repositório oficial para organização e acompanhamento da disciplina **PROJETO
 
 **Enviar até 22/11 às 23:99 - Todas as solução em um único projeto no Github e encaminhar no link**
 
-https://forms.gle/uNnyqXYheYAWrQTR8
+LINK DE ENTREGA: https://forms.gle/uNnyqXYheYAWrQTR8
 
 ### SEMANA 10 - implementar TDD nos quatro projetos disponíveis até a implementação e cobertura total;
 
