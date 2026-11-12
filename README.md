@@ -24,6 +24,26 @@ Repositório oficial para organização e acompanhamento da disciplina **PROJETO
 
 ---
 
+## ATIVIDADES AVALIAÇÃO PRÁTICA PROVA 02 (TOTAL 3,0 PONTOS)
+
+**Enviar até 22/11 às 23:99 - Todas as solução em um único projeto no Github e encaminhar no link**
+
+https://forms.gle/uNnyqXYheYAWrQTR8
+
+### SEMANA 10 - implementar TDD nos quatro projetos disponíveis até a implementação e cobertura total;
+
+https://github.com/JoaoChoma/teste_software_2026/tree/main/aulas/SEMANA10
+
+### SEMANA 11 - implementar teste de integração no projeto Spring Boot
+
+https://github.com/JoaoChoma/teste_software_2026/tree/main/aulas/SEMANA11/exercicios_integracao_springboot
+
+### SEMANA 14 - executar o teste de usuário para o problema proposto
+
+https://github.com/JoaoChoma/teste_software_2026/blob/main/aulas/SEMANA14/TESTE%20USUARIO%20FINAL.pdf
+
+---
+
 ## ATIVIDADES AVALIAÇÃO PRÁTICA PROVA 01 (TOTAL 3,0 PONTOS)
 
 1. Artefatos planos de teste e casos de teste (0,75 PONTO)
